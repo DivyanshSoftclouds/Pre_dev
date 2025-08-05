@@ -1,6 +1,7 @@
 name: CloudFormation Dry Run
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - dry-run-cfn-test
